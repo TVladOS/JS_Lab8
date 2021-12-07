@@ -1,0 +1,53 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+}
+        
+.area {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+        
+.box {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: #464646;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: #8a8a8a;
+}
+        
+#add-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    user-select: none;
+}
+
+#add-btn:hover {
+    background-color: #2a2a2a;
+    font-size: 35px;
+    transition: 0.1s ease-in;
+}
+
+.textArea{
+    resize: none;
+    width: 195px;
+    height: 60px;
+}
